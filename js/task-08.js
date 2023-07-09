@@ -15,7 +15,9 @@ function onSubmit (event) {
         profile.email = email.value;
         profile.password = password.value;
         console.log(profile);
+        
+        formEl.reset();
     }
 
-    formEl.reset();
+    
 };
